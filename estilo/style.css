@@ -5,32 +5,29 @@
     padding: 0%;
 }
 body {
-    background-color: #545454;
-    color: white;
+    background-color: white;
+    color: black;
     font-family:'Lato', Helvetica, sans-serif;
     height: 98vh;
 }
 
 nav {
-    background-color: #3c3c3c;
+    
     padding: 16px;
     text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.247);
     margin-top: 3px;
-    font-weight: normal;
+    font-weight:bold;
 }
 
 nav > a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 5px 20px 5px 20px;
-    border-radius: 5px;
     transition-duration: 0.5s;  
 }
 
 nav > a:hover {
-    background-color: #e4e4e5;
-    color: #3c3c3c;
+    color: #6e57e0;
 }
 
 .apresentação {
@@ -40,7 +37,6 @@ nav > a:hover {
     flex-wrap:wrap;
     align-items:center;
     min-height: 650px;
-    
 }
 
 h1 {
@@ -54,7 +50,7 @@ p {
 }
 
 strong {
-    color: #9400FF;
+    color: #6e57e0;
 }
 
 main {
@@ -66,14 +62,10 @@ main {
     text-align: center;
 }
 
-aside{
-    
-}
-
 footer > p {
     font-size: 20px;
     letter-spacing: normal;
-    text-align:center;
+    text-align: center;
     padding: 16px;
-    background-color: #3c3c3c;
+    background-color: #6e57e0;
 }
