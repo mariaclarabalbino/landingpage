@@ -6,7 +6,7 @@
 }
 body {
     font-family:'Lato', Helvetica, sans-serif;
-    height: 98vh;
+    height: 100vh;
 }
 
 header {
@@ -15,8 +15,11 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-    padding: .8rem;
+    padding: .5rem;
     min-height: 50px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
 }
 
 .img-header {
@@ -41,7 +44,7 @@ nav > a {
     text-decoration: none;
     color: black;
     transition-duration: 0.5s; 
-} 
+}
 
 nav > a:hover {
     color: #6e57e0;
@@ -73,12 +76,12 @@ section {
     min-width: 300px;
 }
 
-h1 {
+.section-1 > div h1 {
     font-size: 3rem;
     letter-spacing: 7px;
 }
 
-p {
+.section-1 > div p {
     font-size: 2rem;
     letter-spacing: 7px;
 }
@@ -97,6 +100,31 @@ strong {
     width: 100%;
 }
 
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-2 > div {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-2 > div img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section-2 > div p {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
 .titulo-2 {
     text-align: center;
 }
@@ -111,14 +139,63 @@ strong {
     padding: 1rem;
 }
 
-.section-3 > ul {
+.section-3 ul li {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.section-3 ul li:hover {
     color: #6e57e0;
+    transition: .5s;
+    cursor: default;
+}
+
+.titulo-3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.section-4 > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section-4 > div > a {
+    text-decoration: none;
+    color: black;
+} 
+
+.section-4 > div > a:hover {
+    transition-duration: 0.5s;
+    color: #6e57e0;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+aside > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    
+    
 }
 
 footer > p {
     font-size: 20px;
     letter-spacing: normal;
     text-align: center;
-    padding: 16px;
+    padding: 1rem;
     background-color: #6e57e0;
+    color: white;
 }
