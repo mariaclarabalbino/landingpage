@@ -152,7 +152,7 @@ strong {
 
 .titulo-3 {
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .section-4 > div {
@@ -160,9 +160,13 @@ strong {
     justify-content: center;
     flex-wrap: wrap;
     font-weight: bold;
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
+}
+
+.section-4 > div img {
+    width: 200px;
+    border-radius: 10px;
 }
 
 .section-4 > div > a {
